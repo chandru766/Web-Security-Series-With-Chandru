@@ -1,10 +1,11 @@
-Lab #3 – Web cache poisoning via ambiguous requests
+# Lab 3: Web cache poisoning via ambiguous requests
 
 Vulnerable parameter - Host header
 
-Goal - Perform a web cache poisoning attack that alerts on the victim's cookie
+## Goal
+Perform a web cache poisoning attack that alerts on the victim's cookie
 
-Analysis:
+## Analysis
 
 User           Cache          Web Server
 Attacker ----------------------> Homepage
