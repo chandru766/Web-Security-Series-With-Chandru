@@ -4,7 +4,7 @@ Welcome to the Web Security Series! This repository tracks my daily progress thr
 
 ## Vulnerability Tracker
 
-- [ ] API-Pentesting
+- [x] API-Pentesting
 - [ ] HTTP-Host-header-attacks
 - [ ] broken-access-control
 - [ ] broken-authentication
