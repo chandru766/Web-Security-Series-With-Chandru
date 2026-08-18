@@ -2,28 +2,28 @@
 
 ```mermaid
 graph TD
-    Root[Http Host Header Attacks]
-    Root --> L0[Lab 01]
+    Root["Http Host Header Attacks"]
+    Root --> L0["Lab 01"]
     click L0 href "#lab-01"
-    Root --> L1[Lab 02]
+    Root --> L1["Lab 02"]
     click L1 href "#lab-02"
-    Root --> L2[Lab 03]
+    Root --> L2["Lab 03"]
     click L2 href "#lab-03"
-    Root --> L3[Lab 04]
+    Root --> L3["Lab 04"]
     click L3 href "#lab-04"
-    Root --> L4[Lab 05]
+    Root --> L4["Lab 05"]
     click L4 href "#lab-05"
-    Root --> L5[Lab 06]
+    Root --> L5["Lab 06"]
     click L5 href "#lab-06"
-    Root --> L6[Lab 07]
+    Root --> L6["Lab 07"]
     click L6 href "#lab-07"
 ```
 
-## Lab 01
+## Lab 01: Basic password reset poisoning
+<a id="lab-01"></a>
 
-Lab #1 - Basic password reset poisoning
-
-Vulnerable parameter - password reset functionality.
+## Vulnerability
+password reset functionality.
 
 ## Goal
 Perform a password reset poisoning attack to compromise Carlos's account.
@@ -36,11 +36,11 @@ Perform a password reset poisoning attack to compromise Carlos's account.
 
 ---
 
-## Lab 02
+## Lab 02: Host header authentication bypass
+<a id="lab-02"></a>
 
-# Lab 2: Host header authentication bypass
-
-Vulnerable parameter - Host header.
+## Vulnerability
+Host header.
 
 ## Goal
 Access the admin panel and delete the carlos user.
@@ -52,11 +52,11 @@ Access the admin panel and delete the carlos user.
 
 ---
 
-## Lab 03
+## Lab 03: Web cache poisoning via ambiguous requests
+<a id="lab-03"></a>
 
-# Lab 3: Web cache poisoning via ambiguous requests
-
-Vulnerable parameter - Host header
+## Vulnerability
+Host header
 
 ## Goal
 Perform a web cache poisoning attack that alerts on the victim's cookie
@@ -79,11 +79,11 @@ Three steps to construct a web cache poisoning attack:
 
 ---
 
-## Lab 04
+## Lab 04: Routing-based SSRF
+<a id="lab-04"></a>
 
-# Lab 4:  Routing-based SSRF
-
-Vulnerable parameter - Host header
+## Vulnerability
+Host header
 
 ## Goal
 Exploit the host header injection to perform an SSRF attack to access the admin panel and delete the user carlos.
@@ -99,11 +99,11 @@ Application client -> |  Application server, Server 1, Server 2, Server 3, ... |
 
 ---
 
-## Lab 05
+## Lab 05: SSRF via flawed request parsing
+<a id="lab-05"></a>
 
-# Lab 5:  SSRF via flawed request parsing
-
-Vulnerable parameter - Host header.
+## Vulnerability
+Host header.
 
 ## Goal
 Exploit the host header injection to gain access to an internal admin panel and delete the carlos user.
@@ -116,11 +116,11 @@ Exploit the host header injection to gain access to an internal admin panel and 
 
 ---
 
-## Lab 06
+## Lab 06: Host validation bypass via connection state attack
+<a id="lab-06"></a>
 
-# Lab 6: Host validation bypass via connection state attack
-
-Vulnerable parameter - Host header
+## Vulnerability
+Host header
 
 ## Goal
 Exploit the host header injection in order to perform an SSRF attack and access an internal admin panel to delete the carlos user.
@@ -135,11 +135,11 @@ Exploit the host header injection in order to perform an SSRF attack and access 
 
 ---
 
-## Lab 07
+## Lab 07: Password reset poisoning via dangling markup
+<a id="lab-07"></a>
 
-# Lab 7: Password reset poisoning via dangling markup
-
-Vulnerable parameter - Password reset functionality
+## Vulnerability
+Password reset functionality
 
 ## Goal
 Perform password reset poisoing via dangling markup.
