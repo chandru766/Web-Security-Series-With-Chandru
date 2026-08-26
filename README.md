@@ -1,4 +1,4 @@
-# Web Security Academy Series
+# Web Security Academy Series with Chandru
 
 ![Web Security](https://img.shields.io/badge/Security-PortSwigger-blue?style=for-the-badge&logo=security) ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
